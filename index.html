@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- Logo -->
+      <link rel="icon" href="img/logo.png">
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+       <!-- FontAwesome -->
+       <script src="https://kit.fontawesome.com/85a8244a07.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+
+   <div style="position: fixed;background-color: white;z-index: 1;width: 100%;">
+     <nav class="navbar navbar-expand-lg p-0" style="border-top: 4px solid #81C14B ;margin: 0;">
+         <div class="container navbarust" style="margin: 0 140px;">
+         
+           <a class="navbar-brand d-flex p-0" href="#">
+             <img src="img/eksisozluk_logo.svg" alt="vikipedi" style="width: 130px; height: 60px;  padding: 0 0 0 0; margin: 0 auto;">
+            
+           </a>
+           
+           <div class="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
+             <form class="d-flex arama" role="search" style="margin-left: 110px;">
+                 <div class="input-group">
+             
+                     <input type="text" class="form-control" placeholder="baslık, #entry, @yazar" aria-label="Username" aria-describedby="basic-addon1"  style="width: 350px; height: 29px;color: #FFFF; border: 1px solid #81C14B;font-size: 14px; ">
+                     <span class="input-group-text" style="background-color: #81C14B;  border: 1px solid #81C14B;" id="basic-addon1"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></span>
+                    
+                   </div>
+                   
+             </form>
+             <ul class="navbar-nav d-flex justify-content-between"  >
+               <li class="nav-item">
+                 <a class="nav-link giris" href="#" style="font-size:14px ;color: #333;  " >giriş</a>
+               </li>
+               <li class="nav-item ">
+                 <a class="nav-link kayit " href="#" style="font-size:14px ;color: #333;  ">kayıt ol</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+        </nav>
+        <div class="container  navbaralt" style="margin: 0 140px; padding: 0;width: 1240px;">
+            <ul class="d-flex altcizgi " style="list-style: none ;line-height: 36px;margin: 0;padding: 0;">
+                <li style="padding: 0 10px;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 136px;height: 42px;" class="gundem iki" >gündem</a>
+                   
+                </li>
+               
+                <li style="padding: 0 10px;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 117px;height: 42px;" class="debe iki">debe</a>
+                   
+                </li>
+                <li style="padding: 0 10px;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 155px;height: 42px;" class="sorunsallar iki">sorunsallar</a>
+                   
+                </li>
+                <li style="padding: 0 10px;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 121px;height: 42px;" class="spor iki">#spor</a>
+                   
+                </li>
+                <li style="padding: 0 10px;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 139px;height: 42px; " class="iliskiler iki">#ilişkiler</a>
+                   
+                </li>
+                <li style="padding: 0 10px;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 136px;height: 42px;" class="siyaset iki">#siyaset</a>
+                   
+                </li>
+                <li style="padding: 0 10px 0 0;" class="bir">
+                    <a href="" style="text-decoration: none; color: #333;width: 115px;height: 42px;" class="ucnokta iki">...</a>
+                   
+                </li>
+               
+ 
+                <li >
+                    <a href="" style="text-decoration: none; color: #333;padding: 0 10px 0 0;"><img src="img/penalogo.png" alt="" style="width: 64px; height: 25px;margin: auto;"></a>
+                </li>
+                <li >
+                    <a href="" style="text-decoration: none; color: #333;padding: 0 0px 0 10px ;"><img src="img/eksiseylerlogopng.png" alt=""  style="width: 90px; height: 25px;margin: auto;"></a></li>
+           </ul>
+                </div>
+             <hr class="m-0">
+        </div>
+        <hr class="container-fluid m-0">
+       
+   
+
+   <div class="mycontainer" style="position: relative;">
+    <div class="content">
+        <div class="column-25" style="margin-top: 100px;" >
+            <div class="card kenar " style="overflow-y: scroll; border: none;width: 245px; height: 590px; font-size: 14px;margin-left: 50px;position: fixed;" >
+                <h2 style="font-size: 20px;margin-bottom: 8px;color: #888;line-height: 1.2;">gündem <a href=""><i class="fa-solid fa-gear" style="color: #888;font-size: 10px;"></i></a></h2>
+             
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <a href="" style="display: inline; color: #333333; font-size: 14px;text-decoration: none;">22 kasım 2022 arjantin suudi arabistan maçı</a>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       <div class="d-flex justify-content-between me-2 kutu" style="padding: 10px 0 0 0;">
+                         <p style="display: inline; color: #333333; font-size: 14px;">22 kasım 2022 arjantin suudi arabistan maçı</p>
+                         <small style="display: inline;color: #888;" class="me-2 " >1.7b</small>
+                        
+                       </div>
+                       
+
+              </div>
+        </div>
+        <div class="column-75" style="position: relative;">
+        <img src="img/reklam1.png" alt="" style="margin-top: 120px;width: 105%;" class="reklam1">
+        <div class="content">
+            <div class="column-75 yazi"style="position: relative;">
+                <div style="margin-right: 25px;">
+                 <h4 style="margin: 15px 0;font-size: 22px;color: #333333;"> <a href=""><b>dil</b></a>  </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <a href=""><b>dil</b></a> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <a href=""><b>dil</b></a> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <a href=""><b>dil</b></a> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <a href=""><b>dil</b></a></h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <b>dil</b> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <b>dil</b> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <b>dil</b> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <b>dil</b> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+                <div style="margin-right: 25px; margin-top: 80px;">
+                 <h4 style="margin: 15px 0;"> <b>dil</b> </h4>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <p>günümüzden 70 ila 30 bin yıl önce sebebi bilinmeyen çeşitli mutasyonlar insan beyinin iç kimyası değişerek insan türünde daha önce eşi benzeri görülmemiş bir düşünce ve iletişim sistemi ortaya çıktı. bu sistem bugünkü düşünce ve dil sistemlerimizin temelini oluşturur.</p>
+                 <p>insan türünün bugün dünyaya egemen olmasını sağlayan temel yapı taşı.</p>
+                 <footer>
+             <div>
+                 <i class="fa-solid fa-circle-arrow-up" ></i>
+                 <i class="fa-solid fa-circle-arrow-down" style="padding: 0 0 0 15px;"></i>
+                 <i class="fa-solid fa-ellipsis" style="float: right;padding: 0 10px 0 15px;"></i>
+                 <i class="fa-solid fa-arrow-up-from-bracket" style="float: right; "></i>
+             </div>
+                 <div style=" display:flex ; float: right; font-size: 14px;" class="p-2">
+                     <div class="me-2 ">
+                         <a style="display: block; text-align: right; text-decoration: none; color: #81C14B;" href="">User</a>
+                         <a style="display: block;text-decoration: none; color: #888888;" href="">00.00.00 00.00</a>
+                     </div>
+                    <img src="img/user.svg" alt="">
+                 </div>
+             </footer>
+                </div>
+            </div>
+            <div class="column-25 sagreklam"  style="height: 3500px;">
+                <img src="img/reklam2.png" style="margin-top: 40px; margin-left: 20px;width: 300px;" alt="" class="reklam2">
+                <div class="card border border-0 mt-3 tablo" style="margin-left: 20px;">
+                    <p style="border-top:6px solid rgb(85, 203, 226); width: 300px; background-color: rgb(85, 203, 226); margin: 1px;"></p>
+                    <table style="width: 300px;">
+                    
+                      <tr style="width:150px; font-size: 14px;">
+                          <th>
+                            <div class="m-0" style="margin-top:2px; padding: 10px;"> 
+                              <a href="" style="width:102px; height: 18px; font-size: 12px; color: #999999; text-decoration: none;">💧TARİH</a> <p style="display: inline; margin-left: 30px;width: 68px; height:15px ; font-size: 10px; color: #999999;"><img src="img/gozluk.png" alt="" style="margin-bottom: 2px; margin-left: 23px;">13,9b</p> <br>
+                              <a href="" style="text-decoration: none; color:black; font-size: 12px;line-height: 1.5;">Domatesin ABD'de Sebze Olarak Tescillenmesine Neden Olan İlginç Dava</a>
+                            </div>
+                          </th>
+                          <td><img src="img/tarih.jpg" alt="" style="width:110px ;height: 110px; "></td>
+                      </tr>
+                      <tr style="width:150px; font-size: 14px;">
+                          <th>
+                            <hr  class="m-0 p-0">
+                            <div class="m-0" style="margin-top:2px; padding: 10px;"> 
+                              <a href="" style="width:102px; height: 18px; font-size: 12px; color: #999999; text-decoration: none;"> 💧TARİH</a> <p style="display: inline; margin-left: 30px;width: 68px; height:15px ; font-size: 10px; color: #999999;"><img src="img/gozluk.png" alt="" style="margin-bottom: 2px; margin-left: 23px;">13,9b</p> <br>
+                              <a href="" style="text-decoration: none; color:black; font-size: 12px;line-height: 1.5;">Domatesin ABD'de Sebze Olarak Tescillenmesine Neden Olan İlginç Dava</a>
+                            </div>
+                          </th>
+                          <td><img src="img/tarih.jpg" alt="" style="width:110px ;height: 110px; "></td>
+                      </tr>
+                      <tr style="width:150px; font-size: 14px;">
+                          <th>
+                            <hr class="m-0 p-0">
+                            <div class="m-0" style="margin-top:2px; padding: 10px;"> 
+                              <a href="" style="width:102px; height: 18px; font-size: 12px; color: #999999; text-decoration: none;">💧TARİH</a> <p style="display: inline; margin-left: 30px;width: 68px; height:15px ; font-size: 10px; color: #999999;"><img src="img/gozluk.png" alt="" style="margin-bottom: 2px; margin-left: 23px;">13,9b</p> <br>
+                              <a href="" style="text-decoration: none; color:black; font-size: 12px;line-height: 1.5;">Domatesin ABD'de Sebze Olarak Tescillenmesine Neden Olan İlginç Dava</a>
+                            </div>
+                          </th>
+                          <td><img src="img/tarih.jpg" alt="" style="width:110px ;height: 110px; "></td>
+                      </tr>
+                    </table>
+                   </div>
+                <div class=" mt-1 " style="width: 300px;height: 130px; border: none; border-radius: 0;background:linear-gradient( to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100% ), url(img/arkaplan1png.png); padding: 5px;margin-left: 20px;">
+                    <div class="d-inline-block" >
+                        <img src="img/eksisözlükpng.png" alt="" style="width:50px ;height:50px;margin-bottom: 20px;margin-left: 5px;">
+                        <div class="d-inline-block" >
+                            <a href=""  class=" d-block text-white m-0 " style="text-decoration: none;text-shadow:  0 2px 4px rgb(0 0 0 / 90%);">ekşi sözlük <img src="img/adsız.png" alt="" > </a>
+                            <p  class="m-0 d-block" style="font-size: 12px; color: white;">1.416.399 beğenme</p>
+                        </div>
+                        
+                    </div>
+                    <div >
+                        <button style="border: none;width: 116px;height: 24px;font-size: 12px;margin-top: 20px;background-color: #F5F6F7;margin-left: 4px;"><i class="fa-brands fa-square-facebook"></i> <b> Sayfayı Beğen</b> </button>
+                        <button style="border: none;width: 78px;height: 24px;font-size: 12px;margin-top: 20px;background-color: #F5F6F7;margin-left: 85px;"><i class="fa-solid fa-pencil"></i> <b> Kaydol</b> </button>
+                    </div>
+                 
+                </div>        
+                <div class=" mt-3 mb-4" style="width: 300px;height: 130px; border: none; border-radius: 0;background:linear-gradient( to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100% ), url(img/arkaplan1png.png); padding: 5px;margin-left: 20px;">
+                    <div class="d-inline-block" >
+                        <img src="img/eksiseyler.png" alt="" style="width:50px ;height:50px;margin-bottom: 20px;margin-left: 5px;">
+                        <div class="d-inline-block" >
+                            <a href=""  class=" d-block text-white m-0" style="text-decoration: none; text-shadow: 0 2px 4px rgb(0 0 0 / 90%);">ekşi şeyler</a>
+                            <p  class="m-0 d-block" style="font-size: 12px;color: white;">1.416.399 beğenme</p>
+                        </div>
+                        
+                    </div>
+                    <div >
+                        <button style="border: none;width: 116px;height: 26px;font-size: 12px;margin-top: 20px;background-color: #F5F6F7;margin-left: 4px;"><i class="fa-brands fa-square-facebook"></i> <b> Sayfayı Beğen</b> </button>
+                        <button style="border: none;width: 120px;height: 26px;font-size: 11px;margin-top: 20px;background-color: #F5F6F7;margin-left: 40px;"><i class="fa-solid fa-circle-info"></i> <b> Daha fazla bilgi al</b> </button>
+                    </div>
+                </div>
+                <div style="width: 300px;height: 40px; margin-left: 20px;">
+                    <div>
+                      <button style="border:2px solid #1d9bf0; border-radius: 15px; background-color: #1d9bf0;width:140px ;height: 28px;color: white; font-size: 13px;"><i class="fa-brands fa-twitter"></i> Takip et:@sozluk</button>
+                      <div class="mesaj"><a href="">3.08 Mn Takipçi </a></div>
+                    </div>
+                   </div>
+                   <div class="sticky"><img src="img/altreklamjpg.jpg" alt="" style="width: 300px;height: 250px; margin-left: 20px;"></div>
+                     
+            </div>
+        </div>
+       
+        <footer class="column-100" >
+            
+               <img src="img/footer.png" alt="" style="width:105%;height: 250px;" class="altreklam" >
+              
+               
+           
+            <div class=" m-auto mb-5" style="font-size: 12px;">
+                <hr style="width: 105%;" class="althr">
+              
+                <div style="width: 105%; font-size: 14px;" class="alt">
+                    <div >
+                         <a href=""    class="d-inline cizgi  " style="padding: 0 7px 0 7px;">iletişim</a>
+                         <a href=""   class="d-inline  cizgi "  style="padding: 0 7px 0 7px;">şeffaflık raporu</a>
+                         <a href=""   class="d-inline cizgi "  style="padding: 0 7px 0 7px;">reklam</a>
+                         <a href=""   class="d-inline cizgi"   style="padding: 0 7px 0 7px;">kariyer</a>
+                         <a href=""   class="d-inline cizgi "  style="padding: 0 7px 0 7px;">kullanım koşulları</a>
+                         <a href=""   class="d-inline cizgi "   style="padding: 0 7px 0 7px;">gizlilik politikamız</a>
+                         <a href=""   class="d-inline cizgi "   style="padding: 0 7px 0 7px;">sss</a>
+                         <a href=""   class="d-inline cizgi  " style="padding: 0 7px 0 7px;">istatistikler</a>
+                         <a href=""   class="d-inline cizgi "  style="padding: 0 7px 0 7px;">sub-etha</a>
+                         <a href=""   class="d-inline cizgi " style="padding: 0 7px 0 7px;">instagram</a>
+                         <a href=""   class="d-inline cizgi " style="padding: 0 7px 0 7px;">twitter</a>
+                         <a href=""   class="d-inline cizgi "  style="padding: 0 7px 0 7px;">facebook</a>
+                       
+                       
+                    </div>
+            </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+</div>
+
+    
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+</body>
+</html>
